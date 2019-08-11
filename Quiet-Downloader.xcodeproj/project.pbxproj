@@ -1,0 +1,1125 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		406415CF4184CEE917A11EA2 /* Pods_Quiet_DownloaderTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 981F6DD8AA22DBB012154F61 /* Pods_Quiet_DownloaderTests.framework */; };
+		7E525974C5B5ACA111806900 /* Pods_Quiet_Downloader.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3DEBAB17B89BC1B3EB43D42 /* Pods_Quiet_Downloader.framework */; };
+		D442E729C4A71655F1B32966 /* Pods_Quiet_DownloaderUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 71C16487F33689FD324932F7 /* Pods_Quiet_DownloaderUITests.framework */; };
+		E330A1EC22FE6B1100934C83 /* MBPlaceHolderTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = E330A1EA22FE6B1100934C83 /* MBPlaceHolderTextView.m */; };
+		E330A1F022FE72FF00934C83 /* NetworkCheckHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = E330A1EF22FE72FF00934C83 /* NetworkCheckHelper.m */; };
+		E33B9E2822FC225400D2D0A0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E33B9E2722FC225400D2D0A0 /* AppDelegate.m */; };
+		E33B9E2B22FC225400D2D0A0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E33B9E2A22FC225400D2D0A0 /* ViewController.m */; };
+		E33B9E2E22FC225400D2D0A0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E33B9E2C22FC225400D2D0A0 /* Main.storyboard */; };
+		E33B9E3022FC225500D2D0A0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E33B9E2F22FC225500D2D0A0 /* Assets.xcassets */; };
+		E33B9E3322FC225500D2D0A0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E33B9E3122FC225500D2D0A0 /* LaunchScreen.storyboard */; };
+		E33B9E3622FC225500D2D0A0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E33B9E3522FC225500D2D0A0 /* main.m */; };
+		E33B9E4022FC225600D2D0A0 /* Quiet_DownloaderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E33B9E3F22FC225600D2D0A0 /* Quiet_DownloaderTests.m */; };
+		E33B9E4B22FC225600D2D0A0 /* Quiet_DownloaderUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E33B9E4A22FC225600D2D0A0 /* Quiet_DownloaderUITests.m */; };
+		E33B9E5B22FC22A500D2D0A0 /* ImagerUploadManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E33B9E5A22FC22A500D2D0A0 /* ImagerUploadManager.m */; };
+		E33B9E6622FD13B400D2D0A0 /* XLOSSTool.m in Sources */ = {isa = PBXBuildFile; fileRef = E33B9E5E22FD13B400D2D0A0 /* XLOSSTool.m */; };
+		E33B9E6722FD13B400D2D0A0 /* XLOSSObject.m in Sources */ = {isa = PBXBuildFile; fileRef = E33B9E5F22FD13B400D2D0A0 /* XLOSSObject.m */; };
+		E33B9E6822FD13B400D2D0A0 /* XMLDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = E33B9E6222FD13B400D2D0A0 /* XMLDictionary.m */; };
+		E33B9E6922FD13B400D2D0A0 /* XLOSSManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E33B9E6322FD13B400D2D0A0 /* XLOSSManager.m */; };
+		E33B9E6D22FD284E00D2D0A0 /* NSData+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = E33B9E6C22FD284E00D2D0A0 /* NSData+Category.m */; };
+		E33B9E7122FD3F1600D2D0A0 /* PublishViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E33B9E6F22FD3F1600D2D0A0 /* PublishViewController.m */; };
+		E33B9E7222FD3F1600D2D0A0 /* PublishViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E33B9E7022FD3F1600D2D0A0 /* PublishViewController.xib */; };
+		E33B9E7722FD43A900D2D0A0 /* PublishCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E33B9E7522FD43A900D2D0A0 /* PublishCollectionViewCell.m */; };
+		E33B9E7822FD43A900D2D0A0 /* PublishCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E33B9E7622FD43A900D2D0A0 /* PublishCollectionViewCell.xib */; };
+		E34046DB22FEAE680033F800 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = E34046D922FEAE670033F800 /* MBProgressHUD.m */; };
+		E34046DE22FEAEC80033F800 /* MBProgressHUD+TMLExt.m in Sources */ = {isa = PBXBuildFile; fileRef = E34046DD22FEAEC80033F800 /* MBProgressHUD+TMLExt.m */; };
+		E3ACA0F822FD4A5F00607978 /* PhotoPickerHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = E3ACA0F722FD4A5F00607978 /* PhotoPickerHelper.m */; };
+		E3ACA11D22FD5AD200607978 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = E3ACA0FC22FD5AD100607978 /* LICENSE */; };
+		E3ACA11E22FD5AD200607978 /* TZImageCropManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E3ACA10122FD5AD100607978 /* TZImageCropManager.m */; };
+		E3ACA11F22FD5AD200607978 /* TZAssetCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E3ACA10322FD5AD100607978 /* TZAssetCell.m */; };
+		E3ACA12022FD5AD200607978 /* TZVideoPlayerController.m in Sources */ = {isa = PBXBuildFile; fileRef = E3ACA10422FD5AD100607978 /* TZVideoPlayerController.m */; };
+		E3ACA12122FD5AD200607978 /* TZAssetModel.m in Sources */ = {isa = PBXBuildFile; fileRef = E3ACA10522FD5AD100607978 /* TZAssetModel.m */; };
+		E3ACA12222FD5AD200607978 /* NSBundle+TZImagePicker.m in Sources */ = {isa = PBXBuildFile; fileRef = E3ACA10622FD5AD100607978 /* NSBundle+TZImagePicker.m */; };
+		E3ACA12322FD5AD200607978 /* UIView+Layout.m in Sources */ = {isa = PBXBuildFile; fileRef = E3ACA10922FD5AD100607978 /* UIView+Layout.m */; };
+		E3ACA12422FD5AD200607978 /* TZPhotoPreviewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E3ACA10A22FD5AD100607978 /* TZPhotoPreviewController.m */; };
+		E3ACA12522FD5AD200607978 /* TZImagePickerController.bundle in Resources */ = {isa = PBXBuildFile; fileRef = E3ACA10B22FD5AD100607978 /* TZImagePickerController.bundle */; };
+		E3ACA12622FD5AD200607978 /* TZProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = E3ACA10C22FD5AD100607978 /* TZProgressView.m */; };
+		E3ACA12722FD5AD200607978 /* TZImageManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E3ACA10F22FD5AD100607978 /* TZImageManager.m */; };
+		E3ACA12822FD5AD200607978 /* TZPhotoPickerController.m in Sources */ = {isa = PBXBuildFile; fileRef = E3ACA11122FD5AD100607978 /* TZPhotoPickerController.m */; };
+		E3ACA12922FD5AD200607978 /* TZPhotoPreviewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E3ACA11222FD5AD100607978 /* TZPhotoPreviewCell.m */; };
+		E3ACA12A22FD5AD200607978 /* TZImagePickerController.m in Sources */ = {isa = PBXBuildFile; fileRef = E3ACA11822FD5AD200607978 /* TZImagePickerController.m */; };
+		E3ACA12B22FD5AD200607978 /* TZLocationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E3ACA11922FD5AD200607978 /* TZLocationManager.m */; };
+		E3ACA12C22FD5AD200607978 /* TZGifPhotoPreviewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E3ACA11A22FD5AD200607978 /* TZGifPhotoPreviewController.m */; };
+		E3ACA12D22FD5AD200607978 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = E3ACA11C22FD5AD200607978 /* README.md */; };
+		E3ACA17722FD620300607978 /* Message.m in Sources */ = {isa = PBXBuildFile; fileRef = E3ACA17622FD620300607978 /* Message.m */; };
+		E3ACA17B22FD64C400607978 /* MessageTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E3ACA17922FD64C400607978 /* MessageTableViewCell.m */; };
+		E3ACA17C22FD64C400607978 /* MessageTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E3ACA17A22FD64C400607978 /* MessageTableViewCell.xib */; };
+		E3ACA18022FD6B4000607978 /* ImageCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E3ACA17E22FD6B4000607978 /* ImageCollectionViewCell.m */; };
+		E3ACA18122FD6B4000607978 /* ImageCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E3ACA17F22FD6B4000607978 /* ImageCollectionViewCell.xib */; };
+		E3ACA18622FD98C900607978 /* TextUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = E3ACA18522FD98C900607978 /* TextUtil.m */; };
+		E3ACA18B22FDA9DD00607978 /* MessageDBUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = E3ACA18A22FDA9DD00607978 /* MessageDBUtil.m */; };
+		E3ACA19822FDAA0C00607978 /* FMDatabaseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = E3ACA18E22FDAA0C00607978 /* FMDatabaseQueue.m */; };
+		E3ACA19922FDAA0C00607978 /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = E3ACA19122FDAA0C00607978 /* FMDatabaseAdditions.m */; };
+		E3ACA19A22FDAA0C00607978 /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = E3ACA19222FDAA0C00607978 /* FMDatabase.m */; };
+		E3ACA19B22FDAA0C00607978 /* FMDatabasePool.m in Sources */ = {isa = PBXBuildFile; fileRef = E3ACA19622FDAA0C00607978 /* FMDatabasePool.m */; };
+		E3ACA19C22FDAA0C00607978 /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = E3ACA19722FDAA0C00607978 /* FMResultSet.m */; };
+		E3ACA19F22FDCF3300607978 /* MessageFlow.m in Sources */ = {isa = PBXBuildFile; fileRef = E3ACA19E22FDCF3300607978 /* MessageFlow.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E33B9E3C22FC225600D2D0A0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E33B9E1B22FC225400D2D0A0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E33B9E2222FC225400D2D0A0;
+			remoteInfo = "Quiet-Downloader";
+		};
+		E33B9E4722FC225600D2D0A0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E33B9E1B22FC225400D2D0A0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E33B9E2222FC225400D2D0A0;
+			remoteInfo = "Quiet-Downloader";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		212253BF530B2E5A80B3A352 /* Pods-Quiet-DownloaderUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Quiet-DownloaderUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Quiet-DownloaderUITests/Pods-Quiet-DownloaderUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		299ACCED1E879376D89AC5E5 /* Pods-Quiet-DownloaderTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Quiet-DownloaderTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Quiet-DownloaderTests/Pods-Quiet-DownloaderTests.release.xcconfig"; sourceTree = "<group>"; };
+		5DC7F77CDB77CE972ADE4A31 /* Pods-Quiet-DownloaderUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Quiet-DownloaderUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Quiet-DownloaderUITests/Pods-Quiet-DownloaderUITests.release.xcconfig"; sourceTree = "<group>"; };
+		71C16487F33689FD324932F7 /* Pods_Quiet_DownloaderUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Quiet_DownloaderUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		981F6DD8AA22DBB012154F61 /* Pods_Quiet_DownloaderTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Quiet_DownloaderTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF0FFE90A4356471725ABD48 /* Pods-Quiet-Downloader.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Quiet-Downloader.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Quiet-Downloader/Pods-Quiet-Downloader.debug.xcconfig"; sourceTree = "<group>"; };
+		B3DEBAB17B89BC1B3EB43D42 /* Pods_Quiet_Downloader.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Quiet_Downloader.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C1847EF1A785F0C4D9E2AE11 /* Pods-Quiet-Downloader.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Quiet-Downloader.release.xcconfig"; path = "Pods/Target Support Files/Pods-Quiet-Downloader/Pods-Quiet-Downloader.release.xcconfig"; sourceTree = "<group>"; };
+		E330A1EA22FE6B1100934C83 /* MBPlaceHolderTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBPlaceHolderTextView.m; sourceTree = "<group>"; };
+		E330A1EB22FE6B1100934C83 /* MBPlaceHolderTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBPlaceHolderTextView.h; sourceTree = "<group>"; };
+		E330A1EE22FE72FF00934C83 /* NetworkCheckHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NetworkCheckHelper.h; sourceTree = "<group>"; };
+		E330A1EF22FE72FF00934C83 /* NetworkCheckHelper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NetworkCheckHelper.m; sourceTree = "<group>"; };
+		E33B9E2322FC225400D2D0A0 /* Quiet-Downloader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Quiet-Downloader.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E33B9E2622FC225400D2D0A0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E33B9E2722FC225400D2D0A0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E33B9E2922FC225400D2D0A0 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		E33B9E2A22FC225400D2D0A0 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		E33B9E2D22FC225400D2D0A0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E33B9E2F22FC225500D2D0A0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E33B9E3222FC225500D2D0A0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E33B9E3422FC225500D2D0A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E33B9E3522FC225500D2D0A0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E33B9E3B22FC225600D2D0A0 /* Quiet-DownloaderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Quiet-DownloaderTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E33B9E3F22FC225600D2D0A0 /* Quiet_DownloaderTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Quiet_DownloaderTests.m; sourceTree = "<group>"; };
+		E33B9E4122FC225600D2D0A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E33B9E4622FC225600D2D0A0 /* Quiet-DownloaderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Quiet-DownloaderUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E33B9E4A22FC225600D2D0A0 /* Quiet_DownloaderUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Quiet_DownloaderUITests.m; sourceTree = "<group>"; };
+		E33B9E4C22FC225600D2D0A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E33B9E5922FC22A500D2D0A0 /* ImagerUploadManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ImagerUploadManager.h; sourceTree = "<group>"; };
+		E33B9E5A22FC22A500D2D0A0 /* ImagerUploadManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ImagerUploadManager.m; sourceTree = "<group>"; };
+		E33B9E5D22FD13B400D2D0A0 /* XLOSSObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLOSSObject.h; sourceTree = "<group>"; };
+		E33B9E5E22FD13B400D2D0A0 /* XLOSSTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLOSSTool.m; sourceTree = "<group>"; };
+		E33B9E5F22FD13B400D2D0A0 /* XLOSSObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLOSSObject.m; sourceTree = "<group>"; };
+		E33B9E6122FD13B400D2D0A0 /* XMLDictionary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMLDictionary.h; sourceTree = "<group>"; };
+		E33B9E6222FD13B400D2D0A0 /* XMLDictionary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMLDictionary.m; sourceTree = "<group>"; };
+		E33B9E6322FD13B400D2D0A0 /* XLOSSManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLOSSManager.m; sourceTree = "<group>"; };
+		E33B9E6422FD13B400D2D0A0 /* XLOSSManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLOSSManager.h; sourceTree = "<group>"; };
+		E33B9E6522FD13B400D2D0A0 /* XLOSSTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLOSSTool.h; sourceTree = "<group>"; };
+		E33B9E6B22FD284E00D2D0A0 /* NSData+Category.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSData+Category.h"; sourceTree = "<group>"; };
+		E33B9E6C22FD284E00D2D0A0 /* NSData+Category.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSData+Category.m"; sourceTree = "<group>"; };
+		E33B9E6E22FD3F1600D2D0A0 /* PublishViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PublishViewController.h; sourceTree = "<group>"; };
+		E33B9E6F22FD3F1600D2D0A0 /* PublishViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PublishViewController.m; sourceTree = "<group>"; };
+		E33B9E7022FD3F1600D2D0A0 /* PublishViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PublishViewController.xib; sourceTree = "<group>"; };
+		E33B9E7422FD43A900D2D0A0 /* PublishCollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PublishCollectionViewCell.h; sourceTree = "<group>"; };
+		E33B9E7522FD43A900D2D0A0 /* PublishCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PublishCollectionViewCell.m; sourceTree = "<group>"; };
+		E33B9E7622FD43A900D2D0A0 /* PublishCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PublishCollectionViewCell.xib; sourceTree = "<group>"; };
+		E34046D922FEAE670033F800 /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		E34046DA22FEAE670033F800 /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		E34046DC22FEAEC80033F800 /* MBProgressHUD+TMLExt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD+TMLExt.h"; sourceTree = "<group>"; };
+		E34046DD22FEAEC80033F800 /* MBProgressHUD+TMLExt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MBProgressHUD+TMLExt.m"; sourceTree = "<group>"; };
+		E3ACA0F422FD492200607978 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		E3ACA0F622FD4A5F00607978 /* PhotoPickerHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PhotoPickerHelper.h; sourceTree = "<group>"; };
+		E3ACA0F722FD4A5F00607978 /* PhotoPickerHelper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PhotoPickerHelper.m; sourceTree = "<group>"; };
+		E3ACA0FC22FD5AD100607978 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		E3ACA0FF22FD5AD100607978 /* TZPhotoPreviewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TZPhotoPreviewCell.h; sourceTree = "<group>"; };
+		E3ACA10022FD5AD100607978 /* TZPhotoPickerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TZPhotoPickerController.h; sourceTree = "<group>"; };
+		E3ACA10122FD5AD100607978 /* TZImageCropManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TZImageCropManager.m; sourceTree = "<group>"; };
+		E3ACA10222FD5AD100607978 /* TZImageManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TZImageManager.h; sourceTree = "<group>"; };
+		E3ACA10322FD5AD100607978 /* TZAssetCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TZAssetCell.m; sourceTree = "<group>"; };
+		E3ACA10422FD5AD100607978 /* TZVideoPlayerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TZVideoPlayerController.m; sourceTree = "<group>"; };
+		E3ACA10522FD5AD100607978 /* TZAssetModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TZAssetModel.m; sourceTree = "<group>"; };
+		E3ACA10622FD5AD100607978 /* NSBundle+TZImagePicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSBundle+TZImagePicker.m"; sourceTree = "<group>"; };
+		E3ACA10722FD5AD100607978 /* TZLocationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TZLocationManager.h; sourceTree = "<group>"; };
+		E3ACA10822FD5AD100607978 /* TZImagePickerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TZImagePickerController.h; sourceTree = "<group>"; };
+		E3ACA10922FD5AD100607978 /* UIView+Layout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Layout.m"; sourceTree = "<group>"; };
+		E3ACA10A22FD5AD100607978 /* TZPhotoPreviewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TZPhotoPreviewController.m; sourceTree = "<group>"; };
+		E3ACA10B22FD5AD100607978 /* TZImagePickerController.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = TZImagePickerController.bundle; sourceTree = "<group>"; };
+		E3ACA10C22FD5AD100607978 /* TZProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TZProgressView.m; sourceTree = "<group>"; };
+		E3ACA10D22FD5AD100607978 /* TZGifPhotoPreviewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TZGifPhotoPreviewController.h; sourceTree = "<group>"; };
+		E3ACA10E22FD5AD100607978 /* TZAssetCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TZAssetCell.h; sourceTree = "<group>"; };
+		E3ACA10F22FD5AD100607978 /* TZImageManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TZImageManager.m; sourceTree = "<group>"; };
+		E3ACA11022FD5AD100607978 /* TZImageCropManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TZImageCropManager.h; sourceTree = "<group>"; };
+		E3ACA11122FD5AD100607978 /* TZPhotoPickerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TZPhotoPickerController.m; sourceTree = "<group>"; };
+		E3ACA11222FD5AD100607978 /* TZPhotoPreviewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TZPhotoPreviewCell.m; sourceTree = "<group>"; };
+		E3ACA11322FD5AD200607978 /* NSBundle+TZImagePicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSBundle+TZImagePicker.h"; sourceTree = "<group>"; };
+		E3ACA11422FD5AD200607978 /* TZAssetModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TZAssetModel.h; sourceTree = "<group>"; };
+		E3ACA11522FD5AD200607978 /* TZVideoPlayerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TZVideoPlayerController.h; sourceTree = "<group>"; };
+		E3ACA11622FD5AD200607978 /* TZPhotoPreviewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TZPhotoPreviewController.h; sourceTree = "<group>"; };
+		E3ACA11722FD5AD200607978 /* UIView+Layout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Layout.h"; sourceTree = "<group>"; };
+		E3ACA11822FD5AD200607978 /* TZImagePickerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TZImagePickerController.m; sourceTree = "<group>"; };
+		E3ACA11922FD5AD200607978 /* TZLocationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TZLocationManager.m; sourceTree = "<group>"; };
+		E3ACA11A22FD5AD200607978 /* TZGifPhotoPreviewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TZGifPhotoPreviewController.m; sourceTree = "<group>"; };
+		E3ACA11B22FD5AD200607978 /* TZProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TZProgressView.h; sourceTree = "<group>"; };
+		E3ACA11C22FD5AD200607978 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		E3ACA17522FD620300607978 /* Message.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Message.h; sourceTree = "<group>"; };
+		E3ACA17622FD620300607978 /* Message.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Message.m; sourceTree = "<group>"; };
+		E3ACA17822FD64C400607978 /* MessageTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MessageTableViewCell.h; sourceTree = "<group>"; };
+		E3ACA17922FD64C400607978 /* MessageTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MessageTableViewCell.m; sourceTree = "<group>"; };
+		E3ACA17A22FD64C400607978 /* MessageTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MessageTableViewCell.xib; sourceTree = "<group>"; };
+		E3ACA17D22FD6B4000607978 /* ImageCollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ImageCollectionViewCell.h; sourceTree = "<group>"; };
+		E3ACA17E22FD6B4000607978 /* ImageCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ImageCollectionViewCell.m; sourceTree = "<group>"; };
+		E3ACA17F22FD6B4000607978 /* ImageCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ImageCollectionViewCell.xib; sourceTree = "<group>"; };
+		E3ACA18422FD98C900607978 /* TextUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextUtil.h; sourceTree = "<group>"; };
+		E3ACA18522FD98C900607978 /* TextUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TextUtil.m; sourceTree = "<group>"; };
+		E3ACA18922FDA9DD00607978 /* MessageDBUtil.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MessageDBUtil.h; sourceTree = "<group>"; };
+		E3ACA18A22FDA9DD00607978 /* MessageDBUtil.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MessageDBUtil.m; sourceTree = "<group>"; };
+		E3ACA18D22FDAA0C00607978 /* FMDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabase.h; sourceTree = "<group>"; };
+		E3ACA18E22FDAA0C00607978 /* FMDatabaseQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseQueue.m; sourceTree = "<group>"; };
+		E3ACA18F22FDAA0C00607978 /* FMResultSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMResultSet.h; sourceTree = "<group>"; };
+		E3ACA19022FDAA0C00607978 /* FMDatabasePool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabasePool.h; sourceTree = "<group>"; };
+		E3ACA19122FDAA0C00607978 /* FMDatabaseAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseAdditions.m; sourceTree = "<group>"; };
+		E3ACA19222FDAA0C00607978 /* FMDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabase.m; sourceTree = "<group>"; };
+		E3ACA19322FDAA0C00607978 /* FMDatabaseQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseQueue.h; sourceTree = "<group>"; };
+		E3ACA19422FDAA0C00607978 /* FMDB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDB.h; sourceTree = "<group>"; };
+		E3ACA19522FDAA0C00607978 /* FMDatabaseAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseAdditions.h; sourceTree = "<group>"; };
+		E3ACA19622FDAA0C00607978 /* FMDatabasePool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabasePool.m; sourceTree = "<group>"; };
+		E3ACA19722FDAA0C00607978 /* FMResultSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMResultSet.m; sourceTree = "<group>"; };
+		E3ACA19D22FDCF3300607978 /* MessageFlow.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MessageFlow.h; sourceTree = "<group>"; };
+		E3ACA19E22FDCF3300607978 /* MessageFlow.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MessageFlow.m; sourceTree = "<group>"; };
+		E9F635D751C4F1FAB5EF0643 /* Pods-Quiet-DownloaderTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Quiet-DownloaderTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Quiet-DownloaderTests/Pods-Quiet-DownloaderTests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E33B9E2022FC225400D2D0A0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E525974C5B5ACA111806900 /* Pods_Quiet_Downloader.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E33B9E3822FC225600D2D0A0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				406415CF4184CEE917A11EA2 /* Pods_Quiet_DownloaderTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E33B9E4322FC225600D2D0A0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D442E729C4A71655F1B32966 /* Pods_Quiet_DownloaderUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5F2AE61C4AC8A09E9312C3D7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B3DEBAB17B89BC1B3EB43D42 /* Pods_Quiet_Downloader.framework */,
+				981F6DD8AA22DBB012154F61 /* Pods_Quiet_DownloaderTests.framework */,
+				71C16487F33689FD324932F7 /* Pods_Quiet_DownloaderUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		65ED53625B614ED5C323836B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AF0FFE90A4356471725ABD48 /* Pods-Quiet-Downloader.debug.xcconfig */,
+				C1847EF1A785F0C4D9E2AE11 /* Pods-Quiet-Downloader.release.xcconfig */,
+				E9F635D751C4F1FAB5EF0643 /* Pods-Quiet-DownloaderTests.debug.xcconfig */,
+				299ACCED1E879376D89AC5E5 /* Pods-Quiet-DownloaderTests.release.xcconfig */,
+				212253BF530B2E5A80B3A352 /* Pods-Quiet-DownloaderUITests.debug.xcconfig */,
+				5DC7F77CDB77CE972ADE4A31 /* Pods-Quiet-DownloaderUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E330A1E922FE6B1100934C83 /* MBPlaceHolderTextView */ = {
+			isa = PBXGroup;
+			children = (
+				E330A1EA22FE6B1100934C83 /* MBPlaceHolderTextView.m */,
+				E330A1EB22FE6B1100934C83 /* MBPlaceHolderTextView.h */,
+			);
+			path = MBPlaceHolderTextView;
+			sourceTree = "<group>";
+		};
+		E330A1ED22FE72E500934C83 /* NetworkCheckHelper */ = {
+			isa = PBXGroup;
+			children = (
+				E330A1EE22FE72FF00934C83 /* NetworkCheckHelper.h */,
+				E330A1EF22FE72FF00934C83 /* NetworkCheckHelper.m */,
+			);
+			path = NetworkCheckHelper;
+			sourceTree = "<group>";
+		};
+		E33B9E1A22FC225400D2D0A0 = {
+			isa = PBXGroup;
+			children = (
+				E33B9E2522FC225400D2D0A0 /* Quiet-Downloader */,
+				E33B9E3E22FC225600D2D0A0 /* Quiet-DownloaderTests */,
+				E33B9E4922FC225600D2D0A0 /* Quiet-DownloaderUITests */,
+				E33B9E2422FC225400D2D0A0 /* Products */,
+				65ED53625B614ED5C323836B /* Pods */,
+				5F2AE61C4AC8A09E9312C3D7 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		E33B9E2422FC225400D2D0A0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E33B9E2322FC225400D2D0A0 /* Quiet-Downloader.app */,
+				E33B9E3B22FC225600D2D0A0 /* Quiet-DownloaderTests.xctest */,
+				E33B9E4622FC225600D2D0A0 /* Quiet-DownloaderUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E33B9E2522FC225400D2D0A0 /* Quiet-Downloader */ = {
+			isa = PBXGroup;
+			children = (
+				E3ACA18322FD98C900607978 /* TextUtil */,
+				E3ACA0FA22FD5ABB00607978 /* Vendor */,
+				E3ACA0F522FD4A4C00607978 /* PhotoPickerHelper */,
+				E33B9E6A22FD282400D2D0A0 /* Category */,
+				E33B9E5822FC227900D2D0A0 /* Uploader */,
+				E33B9E7322FD437300D2D0A0 /* Controller */,
+				E33B9E7922FD43B000D2D0A0 /* Cell */,
+				E3ACA17422FD61EE00607978 /* Model */,
+				E33B9E2622FC225400D2D0A0 /* AppDelegate.h */,
+				E33B9E2722FC225400D2D0A0 /* AppDelegate.m */,
+				E33B9E2C22FC225400D2D0A0 /* Main.storyboard */,
+				E33B9E2F22FC225500D2D0A0 /* Assets.xcassets */,
+				E33B9E3122FC225500D2D0A0 /* LaunchScreen.storyboard */,
+				E33B9E3422FC225500D2D0A0 /* Info.plist */,
+				E33B9E3522FC225500D2D0A0 /* main.m */,
+				E3ACA0F422FD492200607978 /* PrefixHeader.pch */,
+			);
+			path = "Quiet-Downloader";
+			sourceTree = "<group>";
+		};
+		E33B9E3E22FC225600D2D0A0 /* Quiet-DownloaderTests */ = {
+			isa = PBXGroup;
+			children = (
+				E33B9E3F22FC225600D2D0A0 /* Quiet_DownloaderTests.m */,
+				E33B9E4122FC225600D2D0A0 /* Info.plist */,
+			);
+			path = "Quiet-DownloaderTests";
+			sourceTree = "<group>";
+		};
+		E33B9E4922FC225600D2D0A0 /* Quiet-DownloaderUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E33B9E4A22FC225600D2D0A0 /* Quiet_DownloaderUITests.m */,
+				E33B9E4C22FC225600D2D0A0 /* Info.plist */,
+			);
+			path = "Quiet-DownloaderUITests";
+			sourceTree = "<group>";
+		};
+		E33B9E5822FC227900D2D0A0 /* Uploader */ = {
+			isa = PBXGroup;
+			children = (
+				E330A1ED22FE72E500934C83 /* NetworkCheckHelper */,
+				E33B9E5C22FD137500D2D0A0 /* OSS */,
+				E3ACA18822FDA76200607978 /* Cache */,
+				E33B9E5922FC22A500D2D0A0 /* ImagerUploadManager.h */,
+				E33B9E5A22FC22A500D2D0A0 /* ImagerUploadManager.m */,
+			);
+			path = Uploader;
+			sourceTree = "<group>";
+		};
+		E33B9E5C22FD137500D2D0A0 /* OSS */ = {
+			isa = PBXGroup;
+			children = (
+				E33B9E6022FD13B400D2D0A0 /* XMLDictionary */,
+				E33B9E6422FD13B400D2D0A0 /* XLOSSManager.h */,
+				E33B9E6322FD13B400D2D0A0 /* XLOSSManager.m */,
+				E33B9E5D22FD13B400D2D0A0 /* XLOSSObject.h */,
+				E33B9E5F22FD13B400D2D0A0 /* XLOSSObject.m */,
+				E33B9E6522FD13B400D2D0A0 /* XLOSSTool.h */,
+				E33B9E5E22FD13B400D2D0A0 /* XLOSSTool.m */,
+			);
+			path = OSS;
+			sourceTree = "<group>";
+		};
+		E33B9E6022FD13B400D2D0A0 /* XMLDictionary */ = {
+			isa = PBXGroup;
+			children = (
+				E33B9E6122FD13B400D2D0A0 /* XMLDictionary.h */,
+				E33B9E6222FD13B400D2D0A0 /* XMLDictionary.m */,
+			);
+			path = XMLDictionary;
+			sourceTree = "<group>";
+		};
+		E33B9E6A22FD282400D2D0A0 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				E34046DC22FEAEC80033F800 /* MBProgressHUD+TMLExt.h */,
+				E34046DD22FEAEC80033F800 /* MBProgressHUD+TMLExt.m */,
+				E33B9E6B22FD284E00D2D0A0 /* NSData+Category.h */,
+				E33B9E6C22FD284E00D2D0A0 /* NSData+Category.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		E33B9E7322FD437300D2D0A0 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				E33B9E2922FC225400D2D0A0 /* ViewController.h */,
+				E33B9E2A22FC225400D2D0A0 /* ViewController.m */,
+				E33B9E6E22FD3F1600D2D0A0 /* PublishViewController.h */,
+				E33B9E6F22FD3F1600D2D0A0 /* PublishViewController.m */,
+				E33B9E7022FD3F1600D2D0A0 /* PublishViewController.xib */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		E33B9E7922FD43B000D2D0A0 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				E33B9E7422FD43A900D2D0A0 /* PublishCollectionViewCell.h */,
+				E33B9E7522FD43A900D2D0A0 /* PublishCollectionViewCell.m */,
+				E33B9E7622FD43A900D2D0A0 /* PublishCollectionViewCell.xib */,
+				E3ACA17822FD64C400607978 /* MessageTableViewCell.h */,
+				E3ACA17922FD64C400607978 /* MessageTableViewCell.m */,
+				E3ACA17A22FD64C400607978 /* MessageTableViewCell.xib */,
+				E3ACA17D22FD6B4000607978 /* ImageCollectionViewCell.h */,
+				E3ACA17E22FD6B4000607978 /* ImageCollectionViewCell.m */,
+				E3ACA17F22FD6B4000607978 /* ImageCollectionViewCell.xib */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		E34046D822FEAE670033F800 /* MBProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				E34046D922FEAE670033F800 /* MBProgressHUD.m */,
+				E34046DA22FEAE670033F800 /* MBProgressHUD.h */,
+			);
+			path = MBProgressHUD;
+			sourceTree = "<group>";
+		};
+		E3ACA0F522FD4A4C00607978 /* PhotoPickerHelper */ = {
+			isa = PBXGroup;
+			children = (
+				E3ACA0F622FD4A5F00607978 /* PhotoPickerHelper.h */,
+				E3ACA0F722FD4A5F00607978 /* PhotoPickerHelper.m */,
+			);
+			path = PhotoPickerHelper;
+			sourceTree = "<group>";
+		};
+		E3ACA0FA22FD5ABB00607978 /* Vendor */ = {
+			isa = PBXGroup;
+			children = (
+				E34046D822FEAE670033F800 /* MBProgressHUD */,
+				E330A1E922FE6B1100934C83 /* MBPlaceHolderTextView */,
+				E3ACA18C22FDAA0C00607978 /* fmdb */,
+				E3ACA0FB22FD5AD100607978 /* TZImagePickerController */,
+			);
+			path = Vendor;
+			sourceTree = "<group>";
+		};
+		E3ACA0FB22FD5AD100607978 /* TZImagePickerController */ = {
+			isa = PBXGroup;
+			children = (
+				E3ACA0FC22FD5AD100607978 /* LICENSE */,
+				E3ACA0FD22FD5AD100607978 /* TZImagePickerController */,
+				E3ACA11C22FD5AD200607978 /* README.md */,
+			);
+			path = TZImagePickerController;
+			sourceTree = "<group>";
+		};
+		E3ACA0FD22FD5AD100607978 /* TZImagePickerController */ = {
+			isa = PBXGroup;
+			children = (
+				E3ACA0FE22FD5AD100607978 /* TZImagePickerController */,
+			);
+			path = TZImagePickerController;
+			sourceTree = "<group>";
+		};
+		E3ACA0FE22FD5AD100607978 /* TZImagePickerController */ = {
+			isa = PBXGroup;
+			children = (
+				E3ACA0FF22FD5AD100607978 /* TZPhotoPreviewCell.h */,
+				E3ACA10022FD5AD100607978 /* TZPhotoPickerController.h */,
+				E3ACA10122FD5AD100607978 /* TZImageCropManager.m */,
+				E3ACA10222FD5AD100607978 /* TZImageManager.h */,
+				E3ACA10322FD5AD100607978 /* TZAssetCell.m */,
+				E3ACA10422FD5AD100607978 /* TZVideoPlayerController.m */,
+				E3ACA10522FD5AD100607978 /* TZAssetModel.m */,
+				E3ACA10622FD5AD100607978 /* NSBundle+TZImagePicker.m */,
+				E3ACA10722FD5AD100607978 /* TZLocationManager.h */,
+				E3ACA10822FD5AD100607978 /* TZImagePickerController.h */,
+				E3ACA10922FD5AD100607978 /* UIView+Layout.m */,
+				E3ACA10A22FD5AD100607978 /* TZPhotoPreviewController.m */,
+				E3ACA10B22FD5AD100607978 /* TZImagePickerController.bundle */,
+				E3ACA10C22FD5AD100607978 /* TZProgressView.m */,
+				E3ACA10D22FD5AD100607978 /* TZGifPhotoPreviewController.h */,
+				E3ACA10E22FD5AD100607978 /* TZAssetCell.h */,
+				E3ACA10F22FD5AD100607978 /* TZImageManager.m */,
+				E3ACA11022FD5AD100607978 /* TZImageCropManager.h */,
+				E3ACA11122FD5AD100607978 /* TZPhotoPickerController.m */,
+				E3ACA11222FD5AD100607978 /* TZPhotoPreviewCell.m */,
+				E3ACA11322FD5AD200607978 /* NSBundle+TZImagePicker.h */,
+				E3ACA11422FD5AD200607978 /* TZAssetModel.h */,
+				E3ACA11522FD5AD200607978 /* TZVideoPlayerController.h */,
+				E3ACA11622FD5AD200607978 /* TZPhotoPreviewController.h */,
+				E3ACA11722FD5AD200607978 /* UIView+Layout.h */,
+				E3ACA11822FD5AD200607978 /* TZImagePickerController.m */,
+				E3ACA11922FD5AD200607978 /* TZLocationManager.m */,
+				E3ACA11A22FD5AD200607978 /* TZGifPhotoPreviewController.m */,
+				E3ACA11B22FD5AD200607978 /* TZProgressView.h */,
+			);
+			path = TZImagePickerController;
+			sourceTree = "<group>";
+		};
+		E3ACA17422FD61EE00607978 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E3ACA17522FD620300607978 /* Message.h */,
+				E3ACA17622FD620300607978 /* Message.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		E3ACA18322FD98C900607978 /* TextUtil */ = {
+			isa = PBXGroup;
+			children = (
+				E3ACA18422FD98C900607978 /* TextUtil.h */,
+				E3ACA18522FD98C900607978 /* TextUtil.m */,
+			);
+			path = TextUtil;
+			sourceTree = "<group>";
+		};
+		E3ACA18822FDA76200607978 /* Cache */ = {
+			isa = PBXGroup;
+			children = (
+				E3ACA18922FDA9DD00607978 /* MessageDBUtil.h */,
+				E3ACA18A22FDA9DD00607978 /* MessageDBUtil.m */,
+				E3ACA19D22FDCF3300607978 /* MessageFlow.h */,
+				E3ACA19E22FDCF3300607978 /* MessageFlow.m */,
+			);
+			path = Cache;
+			sourceTree = "<group>";
+		};
+		E3ACA18C22FDAA0C00607978 /* fmdb */ = {
+			isa = PBXGroup;
+			children = (
+				E3ACA18D22FDAA0C00607978 /* FMDatabase.h */,
+				E3ACA18E22FDAA0C00607978 /* FMDatabaseQueue.m */,
+				E3ACA18F22FDAA0C00607978 /* FMResultSet.h */,
+				E3ACA19022FDAA0C00607978 /* FMDatabasePool.h */,
+				E3ACA19122FDAA0C00607978 /* FMDatabaseAdditions.m */,
+				E3ACA19222FDAA0C00607978 /* FMDatabase.m */,
+				E3ACA19322FDAA0C00607978 /* FMDatabaseQueue.h */,
+				E3ACA19422FDAA0C00607978 /* FMDB.h */,
+				E3ACA19522FDAA0C00607978 /* FMDatabaseAdditions.h */,
+				E3ACA19622FDAA0C00607978 /* FMDatabasePool.m */,
+				E3ACA19722FDAA0C00607978 /* FMResultSet.m */,
+			);
+			path = fmdb;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E33B9E2222FC225400D2D0A0 /* Quiet-Downloader */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E33B9E4F22FC225600D2D0A0 /* Build configuration list for PBXNativeTarget "Quiet-Downloader" */;
+			buildPhases = (
+				28CAD1EA4F71A647A1A51B90 /* [CP] Check Pods Manifest.lock */,
+				E33B9E1F22FC225400D2D0A0 /* Sources */,
+				E33B9E2022FC225400D2D0A0 /* Frameworks */,
+				E33B9E2122FC225400D2D0A0 /* Resources */,
+				10185090FD6E608EA4627B5E /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Quiet-Downloader";
+			productName = "Quiet-Downloader";
+			productReference = E33B9E2322FC225400D2D0A0 /* Quiet-Downloader.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E33B9E3A22FC225600D2D0A0 /* Quiet-DownloaderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E33B9E5222FC225600D2D0A0 /* Build configuration list for PBXNativeTarget "Quiet-DownloaderTests" */;
+			buildPhases = (
+				54E327262B627E3578C235A4 /* [CP] Check Pods Manifest.lock */,
+				E33B9E3722FC225600D2D0A0 /* Sources */,
+				E33B9E3822FC225600D2D0A0 /* Frameworks */,
+				E33B9E3922FC225600D2D0A0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E33B9E3D22FC225600D2D0A0 /* PBXTargetDependency */,
+			);
+			name = "Quiet-DownloaderTests";
+			productName = "Quiet-DownloaderTests";
+			productReference = E33B9E3B22FC225600D2D0A0 /* Quiet-DownloaderTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E33B9E4522FC225600D2D0A0 /* Quiet-DownloaderUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E33B9E5522FC225600D2D0A0 /* Build configuration list for PBXNativeTarget "Quiet-DownloaderUITests" */;
+			buildPhases = (
+				1236BFE91024D515433FF861 /* [CP] Check Pods Manifest.lock */,
+				E33B9E4222FC225600D2D0A0 /* Sources */,
+				E33B9E4322FC225600D2D0A0 /* Frameworks */,
+				E33B9E4422FC225600D2D0A0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E33B9E4822FC225600D2D0A0 /* PBXTargetDependency */,
+			);
+			name = "Quiet-DownloaderUITests";
+			productName = "Quiet-DownloaderUITests";
+			productReference = E33B9E4622FC225600D2D0A0 /* Quiet-DownloaderUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E33B9E1B22FC225400D2D0A0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = GeekDuan;
+				TargetAttributes = {
+					E33B9E2222FC225400D2D0A0 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					E33B9E3A22FC225600D2D0A0 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = E33B9E2222FC225400D2D0A0;
+					};
+					E33B9E4522FC225600D2D0A0 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = E33B9E2222FC225400D2D0A0;
+					};
+				};
+			};
+			buildConfigurationList = E33B9E1E22FC225400D2D0A0 /* Build configuration list for PBXProject "Quiet-Downloader" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E33B9E1A22FC225400D2D0A0;
+			productRefGroup = E33B9E2422FC225400D2D0A0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E33B9E2222FC225400D2D0A0 /* Quiet-Downloader */,
+				E33B9E3A22FC225600D2D0A0 /* Quiet-DownloaderTests */,
+				E33B9E4522FC225600D2D0A0 /* Quiet-DownloaderUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E33B9E2122FC225400D2D0A0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E3ACA11D22FD5AD200607978 /* LICENSE in Resources */,
+				E33B9E7222FD3F1600D2D0A0 /* PublishViewController.xib in Resources */,
+				E33B9E3322FC225500D2D0A0 /* LaunchScreen.storyboard in Resources */,
+				E33B9E3022FC225500D2D0A0 /* Assets.xcassets in Resources */,
+				E3ACA18122FD6B4000607978 /* ImageCollectionViewCell.xib in Resources */,
+				E3ACA17C22FD64C400607978 /* MessageTableViewCell.xib in Resources */,
+				E3ACA12522FD5AD200607978 /* TZImagePickerController.bundle in Resources */,
+				E33B9E2E22FC225400D2D0A0 /* Main.storyboard in Resources */,
+				E3ACA12D22FD5AD200607978 /* README.md in Resources */,
+				E33B9E7822FD43A900D2D0A0 /* PublishCollectionViewCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E33B9E3922FC225600D2D0A0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E33B9E4422FC225600D2D0A0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		10185090FD6E608EA4627B5E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Quiet-Downloader/Pods-Quiet-Downloader-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AFNetworking.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Quiet-Downloader/Pods-Quiet-Downloader-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1236BFE91024D515433FF861 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Quiet-DownloaderUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		28CAD1EA4F71A647A1A51B90 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Quiet-Downloader-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		54E327262B627E3578C235A4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Quiet-DownloaderTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E33B9E1F22FC225400D2D0A0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E33B9E6D22FD284E00D2D0A0 /* NSData+Category.m in Sources */,
+				E3ACA12722FD5AD200607978 /* TZImageManager.m in Sources */,
+				E330A1EC22FE6B1100934C83 /* MBPlaceHolderTextView.m in Sources */,
+				E3ACA12C22FD5AD200607978 /* TZGifPhotoPreviewController.m in Sources */,
+				E3ACA11E22FD5AD200607978 /* TZImageCropManager.m in Sources */,
+				E3ACA12B22FD5AD200607978 /* TZLocationManager.m in Sources */,
+				E33B9E6722FD13B400D2D0A0 /* XLOSSObject.m in Sources */,
+				E34046DB22FEAE680033F800 /* MBProgressHUD.m in Sources */,
+				E3ACA19C22FDAA0C00607978 /* FMResultSet.m in Sources */,
+				E3ACA18B22FDA9DD00607978 /* MessageDBUtil.m in Sources */,
+				E3ACA18622FD98C900607978 /* TextUtil.m in Sources */,
+				E33B9E2B22FC225400D2D0A0 /* ViewController.m in Sources */,
+				E34046DE22FEAEC80033F800 /* MBProgressHUD+TMLExt.m in Sources */,
+				E33B9E5B22FC22A500D2D0A0 /* ImagerUploadManager.m in Sources */,
+				E33B9E6822FD13B400D2D0A0 /* XMLDictionary.m in Sources */,
+				E3ACA17B22FD64C400607978 /* MessageTableViewCell.m in Sources */,
+				E3ACA12A22FD5AD200607978 /* TZImagePickerController.m in Sources */,
+				E33B9E7722FD43A900D2D0A0 /* PublishCollectionViewCell.m in Sources */,
+				E3ACA12222FD5AD200607978 /* NSBundle+TZImagePicker.m in Sources */,
+				E33B9E6622FD13B400D2D0A0 /* XLOSSTool.m in Sources */,
+				E3ACA12122FD5AD200607978 /* TZAssetModel.m in Sources */,
+				E3ACA11F22FD5AD200607978 /* TZAssetCell.m in Sources */,
+				E33B9E6922FD13B400D2D0A0 /* XLOSSManager.m in Sources */,
+				E3ACA17722FD620300607978 /* Message.m in Sources */,
+				E3ACA12922FD5AD200607978 /* TZPhotoPreviewCell.m in Sources */,
+				E3ACA19A22FDAA0C00607978 /* FMDatabase.m in Sources */,
+				E33B9E3622FC225500D2D0A0 /* main.m in Sources */,
+				E3ACA12822FD5AD200607978 /* TZPhotoPickerController.m in Sources */,
+				E3ACA12422FD5AD200607978 /* TZPhotoPreviewController.m in Sources */,
+				E33B9E7122FD3F1600D2D0A0 /* PublishViewController.m in Sources */,
+				E3ACA19822FDAA0C00607978 /* FMDatabaseQueue.m in Sources */,
+				E3ACA12322FD5AD200607978 /* UIView+Layout.m in Sources */,
+				E330A1F022FE72FF00934C83 /* NetworkCheckHelper.m in Sources */,
+				E3ACA0F822FD4A5F00607978 /* PhotoPickerHelper.m in Sources */,
+				E3ACA19F22FDCF3300607978 /* MessageFlow.m in Sources */,
+				E3ACA12622FD5AD200607978 /* TZProgressView.m in Sources */,
+				E3ACA19922FDAA0C00607978 /* FMDatabaseAdditions.m in Sources */,
+				E33B9E2822FC225400D2D0A0 /* AppDelegate.m in Sources */,
+				E3ACA19B22FDAA0C00607978 /* FMDatabasePool.m in Sources */,
+				E3ACA12022FD5AD200607978 /* TZVideoPlayerController.m in Sources */,
+				E3ACA18022FD6B4000607978 /* ImageCollectionViewCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E33B9E3722FC225600D2D0A0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E33B9E4022FC225600D2D0A0 /* Quiet_DownloaderTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E33B9E4222FC225600D2D0A0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E33B9E4B22FC225600D2D0A0 /* Quiet_DownloaderUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E33B9E3D22FC225600D2D0A0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E33B9E2222FC225400D2D0A0 /* Quiet-Downloader */;
+			targetProxy = E33B9E3C22FC225600D2D0A0 /* PBXContainerItemProxy */;
+		};
+		E33B9E4822FC225600D2D0A0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E33B9E2222FC225400D2D0A0 /* Quiet-Downloader */;
+			targetProxy = E33B9E4722FC225600D2D0A0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E33B9E2C22FC225400D2D0A0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E33B9E2D22FC225400D2D0A0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E33B9E3122FC225500D2D0A0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E33B9E3222FC225500D2D0A0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E33B9E4D22FC225600D2D0A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E33B9E4E22FC225600D2D0A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E33B9E5022FC225600D2D0A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AF0FFE90A4356471725ABD48 /* Pods-Quiet-Downloader.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 94QN5EAE2J;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Quiet-Downloader/Vendor/YYPhotoBrowseView/Vendor",
+				);
+				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/Quiet-Downloader/PrefixHeader.pch";
+				INFOPLIST_FILE = "Quiet-Downloader/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.geek.dmm.Quiet-Downloader";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E33B9E5122FC225600D2D0A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C1847EF1A785F0C4D9E2AE11 /* Pods-Quiet-Downloader.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 94QN5EAE2J;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Quiet-Downloader/Vendor/YYPhotoBrowseView/Vendor",
+				);
+				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/Quiet-Downloader/PrefixHeader.pch";
+				INFOPLIST_FILE = "Quiet-Downloader/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.geek.dmm.Quiet-Downloader";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E33B9E5322FC225600D2D0A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E9F635D751C4F1FAB5EF0643 /* Pods-Quiet-DownloaderTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Quiet-DownloaderTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.geek.dmm.Quiet-DownloaderTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Quiet-Downloader.app/Quiet-Downloader";
+			};
+			name = Debug;
+		};
+		E33B9E5422FC225600D2D0A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 299ACCED1E879376D89AC5E5 /* Pods-Quiet-DownloaderTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Quiet-DownloaderTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.geek.dmm.Quiet-DownloaderTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Quiet-Downloader.app/Quiet-Downloader";
+			};
+			name = Release;
+		};
+		E33B9E5622FC225600D2D0A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 212253BF530B2E5A80B3A352 /* Pods-Quiet-DownloaderUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Quiet-DownloaderUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.geek.dmm.Quiet-DownloaderUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Quiet-Downloader";
+			};
+			name = Debug;
+		};
+		E33B9E5722FC225600D2D0A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5DC7F77CDB77CE972ADE4A31 /* Pods-Quiet-DownloaderUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Quiet-DownloaderUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.geek.dmm.Quiet-DownloaderUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Quiet-Downloader";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E33B9E1E22FC225400D2D0A0 /* Build configuration list for PBXProject "Quiet-Downloader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E33B9E4D22FC225600D2D0A0 /* Debug */,
+				E33B9E4E22FC225600D2D0A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E33B9E4F22FC225600D2D0A0 /* Build configuration list for PBXNativeTarget "Quiet-Downloader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E33B9E5022FC225600D2D0A0 /* Debug */,
+				E33B9E5122FC225600D2D0A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E33B9E5222FC225600D2D0A0 /* Build configuration list for PBXNativeTarget "Quiet-DownloaderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E33B9E5322FC225600D2D0A0 /* Debug */,
+				E33B9E5422FC225600D2D0A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E33B9E5522FC225600D2D0A0 /* Build configuration list for PBXNativeTarget "Quiet-DownloaderUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E33B9E5622FC225600D2D0A0 /* Debug */,
+				E33B9E5722FC225600D2D0A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E33B9E1B22FC225400D2D0A0 /* Project object */;
+}

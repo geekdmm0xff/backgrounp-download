@@ -1,0 +1,6 @@
+framework module Pods_Quiet_DownloaderUITests {
+  umbrella header "Pods-Quiet-DownloaderUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
